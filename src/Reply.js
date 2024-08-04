@@ -5,7 +5,7 @@ const Reply=(event)=>{
   const handleChange=(event)=>{
        setBhaelu(event.target.value);
   }
-  return <input type="text" value={bhaelu} onChange={(event)=>handleChange(event) }  />
+  return <input type="text" value={bhaelu}  onChange={(event)=>handleChange(event) }  />
 
 }
 export default Reply;
